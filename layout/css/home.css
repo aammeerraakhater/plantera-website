@@ -1,0 +1,52 @@
+:root{
+    --highLand :#6c935a;
+    --palm :#3e654a;
+    --pearl:#e7e0d6;
+    --champagne:#f1ebdd;
+    --clay:#f2f2f2;
+    --marble:#d3d3d3;
+    --truffle:#595959;
+    --bentley:#262626;
+}
+.headerImg{
+    width:100%;
+    height:87vh;
+    background: url('../../imgs/89210.jpg');
+    background-position: center;
+    background-size: cover;
+    filter: blur(4px);
+}
+.homeContent{
+    position:absolute;
+    top:40%;
+    left:25%
+}
+.homeHeader{
+    color:var(--palm) !important;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+}
+.homebtn,.homebtn:hover, .homebtn:active, .homebtn:visited, .homebtn:focus{
+    background-color: var(--bentley);
+    color:var(--pearl);
+    border-color: var(--bentley);
+}
+.aims{
+    background: var(--clay);
+    margin-bottom: 3rem;
+    padding:3rem;
+}
+.pre{
+    margin:3rem;
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;
+    white-space: 2px;
+    color:var(--bentley);
+}
+.aimss{
+    width:80%;
+    margin:0 auto;
+    font-weight: 600;
+    font-size: 1.05rem;
+}

@@ -1,0 +1,39 @@
+:root{
+    --highLand :#6c935a;
+    --palm :#3e654a;
+    --pearl:#e7e0d6;
+    --champagne:#f1ebdd;
+    --clay:#f2f2f2;
+    --marble:#d3d3d3;
+    --truffle:#595959;
+    --bentley:#262626;
+    --brown:#5c442c;
+    --chocolate:#45221b;
+    --beige:#896a58;
+    --latte:#b4947c;
+}
+.showaccsCon, th{
+    margin-top:4.5rem;
+    color:var(--chocolate);
+}
+tr{
+    color:var(--brown);
+    font-weight: 500;
+}
+.search{
+  
+    top:6px;
+    left:10px;
+  }
+  
+  .form-control{
+      
+      border:none;
+      padding-left:32px;
+  }
+  
+  .form-control:focus{
+      
+      border:none;
+      box-shadow:none;
+  }

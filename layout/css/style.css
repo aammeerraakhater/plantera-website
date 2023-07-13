@@ -1,0 +1,35 @@
+
+:root{
+    --highLand :#6c935a;
+    --palm :#3e654a;
+    --pearl:#e7e0d6;
+    --champagne:#f1ebdd;
+    --clay:#f2f2f2;
+    --marble:#d3d3d3;
+    --truffle:#595959;
+    --bentley:#262626;
+}
+body{
+    color:var(--bentley);
+    font-family: 'Chivo Mono', monospace;
+}
+.wholeNav{
+    margin-bottom: 10px;
+    color:var(--bentley);
+    background-color: var(--clay);
+}
+a, .a:visited, .a:focus{
+    color:var(--bentley) !important;
+}
+a:hover, .a:active{
+    color:var(--truffle) !important;
+}
+a.navbarTitle{
+    color:var(--highLand) !important;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar-collapse,.container{
+    color:var(--bentley)
+}

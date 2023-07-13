@@ -1,0 +1,48 @@
+:root{
+    --highLand :#6c935a;
+    --palm :#3e654a;
+    --pearl:#e7e0d6;
+    --champagne:#f1ebdd;
+    --clay:#f2f2f2;
+    --marble:#d3d3d3;
+    --truffle:#595959;
+    --bentley:#262626;
+    --red:#d17979;
+}
+body{
+    color:var(--truffle);
+    font-family: 'Chivo Mono', monospace;
+}
+.formInpt{
+    margin-bottom: 15px;
+}
+.requestform{
+    margin: auto ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:35px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 25px;
+    background-color: var(--clay);
+}
+.requestBTN, .requestBTN:hover, .requestBTN:active, .requestBTN:visited, .requestBTN:focus{
+    margin-top:10px;
+    padding:10px;
+    background-color: var(--palm);
+    border-color: var(--palm);
+    border-radius:  15px;
+    align-self:flex-start;
+}
+.icon{
+    width:150px;
+    height:150px;
+}
+i.fa-tree{
+    font-weight: 900;
+    font-size: 3.2rem;
+    color:var(--highLand);
+    margin: 20px;
+}
+.requestTxt{
+    margin-bottom: 15px;
+}

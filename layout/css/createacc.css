@@ -1,0 +1,90 @@
+:root{
+    --highLand :#6c935a;
+    --palm :#3e654a;
+    --pearl:#e7e0d6;
+    --champagne:#f1ebdd;
+    --clay:#f2f2f2;
+    --marble:#d3d3d3;
+    --truffle:#595959;
+    --bentley:#262626;
+    --brown:#5c442c;
+    --chocolate:#45221b;
+    --beige:#896a58;
+    --latte:#b4947c;
+    --red:#d17979;
+
+}
+body{
+    color:var(--truffle);
+    font-family: 'Chivo Mono', monospace;
+}
+.formInpt{
+    margin-bottom: 15px;
+}
+.requestTxt{
+    color:var(--chocolate);
+    margin-top: 3.5rem;
+}
+.requestform{
+    margin: auto ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding:35px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 25px;
+    background-color: var(--clay);
+}
+.deletetBTN, .deletetBTN:hover, .deletetBTN:active, .deletetBTN:visited, .deletetBTN:focus{
+    margin-top:10px;
+    padding:10px;
+    border-radius:  15px;
+}
+
+.requestBTN, .requestBTN:hover, .requestBTN:active, .requestBTN:visited, .requestBTN:focus{
+    margin-top:10px;
+    padding:10px;
+    background-color: var(--brown);
+    border-color: var(--brown);
+    border-radius:  15px;
+    width: 150px;
+}
+.icon{
+    width:150px;
+    height:150px;
+}
+i.fa-tree{
+    font-weight: 900;
+    font-size: 3.2rem;
+    color:var(--highLand);
+    margin: 20px;
+}
+.requestTxt{
+    margin-bottom: 15px;
+}
+.addFarm{
+    background: url("../../imgs/addFarm.jpg");
+
+}
+.addAccount{
+    background: url("../../imgs/addAccount.jpg");
+}
+.addFarm, .addAccount{
+    width:100px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto 25px auto;
+}
+.error
+{
+  color: red;
+  size: 80%
+}
+.divError{
+    border-color: red;
+}
+.hidden
+{
+  display:none;
+}

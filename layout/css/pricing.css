@@ -1,0 +1,27 @@
+:root{
+    --highLand :#6c935a;
+    --palm :#3e654a;
+    --pearl:#e7e0d6;
+    --champagne:#f1ebdd;
+    --clay:#f2f2f2;
+    --marble:#d3d3d3;
+    --truffle:#595959;
+    --bentley:#262626;
+}
+.pricingContainer{
+    padding:35px;
+    font-weight: 700;
+}
+.pricingBtn, .pricingBtn:hover, .pricingBtn:active, .pricingBtn:visited, .pricingBtn:focus{
+    position: absolute;
+    padding:15px;
+    background-color: var(--palm);
+    border-color: var(--palm);
+    color:var(--pearl) !important;
+    border-radius:  15px;
+    bottom: 40px;
+}
+.card{
+    height:72vh;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 8px 6px, rgba(0, 0, 0, 0.23) 0px 10px 6px;
+}
